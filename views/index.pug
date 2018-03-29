@@ -1,0 +1,9 @@
+extend layout
+
+block content
+	content
+		h2 Halo, #{username}! 
+
+	a(href="/cards") Buka Kartu
+	form(action="/bye" method="POST")
+		input(type="submit" value="Logout")
