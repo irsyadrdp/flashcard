@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');	//include cookie-parser module un
 const express = require('express');				//include express
 const app = express();							//buka expressnya
 
-const port = 14042;								//set url port yang akan dipakai 
+const port = 27099;								//set url port yang akan dipakai 
 
 
 //bisa pake body-parser, multer atau formidable
